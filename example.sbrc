@@ -1,0 +1,12 @@
+[Antimony]
+interval = 1
+renderer = "Antimony::Renderer::Text"
+publisher = "Antimony::Publisher::StdOut"
+
+[Antimony::Renderer::Text]
+max_length = 160
+ellipsis = "..."
+separator = " | "
+
+[Antimony::Module::Clock]
+date_format = "%b %H:%m"
